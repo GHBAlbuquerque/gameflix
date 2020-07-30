@@ -34,3 +34,4 @@ export const Button = styled.button`
 export default Button;
 
 //O STYLED COMPONENT CRIA UM COMPONENTE BASICAMENTE SÓ COM CSS. ELE RECEBE AS PROPS "AUTOMATICAMENTE"
+// se ao inves e usar o button. eu quisesse usar o Link que me foi pasado com <Link to= >, bastaria colocar Button = styled(Link)

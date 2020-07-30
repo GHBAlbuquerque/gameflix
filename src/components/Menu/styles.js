@@ -15,20 +15,20 @@ export const MenuWrapper = styled.nav`
     display: flex; /*vai aplicar flex no CONTEÚDO*/
     height: 94px;
     justify-content: space-between;
-    left: 0;
     padding-left: 5%;
     padding-right: 5%;
     position: fixed; /*quando colocamos qualquer coisa aqui que nao seja auto, podemos alterar a referência*/
-    right: 0;
-    top: 0;
     transition: opacity .3s;
     width: 100%; /*em todos os tamanhos de tela terá 100%*/
     z-index: 100;
+
+    right: 0;
+    top: 0;
+    left: 0;
 
     @media (max-width: 800px) {
     height: 40px;
     justify-content: center;
     }
 `;
-
 /*estou importanto um styled component dentro de um styled component e editando ele*/

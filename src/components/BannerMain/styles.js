@@ -4,19 +4,40 @@ export const BannerMainContainer = styled.section`
     background-image: ${({ backgroundImage }) => `url(${backgroundImage})`};
     background-size: cover;
     background-position: center;
-    /* mask: radial-gradient(circle, #FFFFFF 30%, transparent 100%); */
-    /* mask: radial-gradient(ellipse, #FFFFFF 30%, transparent 100%); */
-    mask: radial-gradient(ellipse, #FFFFFF 40%, #FFFFFF 50%,  transparent 80%);
+    border-bottom: 1px solid var(--primary);
     color: var(--white);
     height: 90vh;
-    border-bottom: 1px solid var(--primary);
+    position: relative;
+    /* mask: radial-gradient(circle, #FFFFFF 30%, transparent 100%); */
+    /* mask: radial-gradient(ellipse, #FFFFFF 30%, transparent 100%); */
 
 @media (max-width: 800px) {
     height: auto;
-    min-height: 0vh;
-    mask: radial-gradient(ellipse, #FFFFFF 40%,  transparent 100%);
+    min-height: 50vh;
     margin-bottom: 10px;
+    /* mask: radial-gradient(ellipse, #FFFFFF 40%,  transparent 100%); */
 }
+    &:after,
+    &:before {
+        content: ""; /*é como se eu cirasse um elemento antes dos meus elementos*/
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 20%;
+    }
+
+    &:before {
+        top: 0;
+        height: 100%;
+        background: rgba(0,0,0,0.4); /*CRIEI UM FUNDO PRETO aplicando através do filho, o efeito no background, se eu colocasse direto no pai, ia ficar preto*/
+        /* background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,212,255,0) 80%); */
+    }
+    &:after {
+        bottom: 0;
+        background: linear-gradient(0deg, #141414 0%, transparent 100%);
+    }
 `;
 
 export const ContentAreaContainer = styled.section`
@@ -26,10 +47,11 @@ export const ContentAreaContainer = styled.section`
     justify-content: center;
     margin-left: 5%;
     margin-right: 5%;
+    padding-top: 100px;
 
     @media (max-width: 800px) {
-        padding-top: 100px;
         flex-direction: column;
+        /* padding-top: 100px; */
         /* margin: 0; */
     }
 `;
@@ -37,6 +59,11 @@ export const ContentAreaContainer = styled.section`
 ContentAreaContainer.Item = styled.div`
     width: 50%;
     margin-bottom: 50px;
+    /* &:nth-child(1) {
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 10px;
+        margin-right: 20px;
+    }  */
 
 
     @media (max-width: 800px) {
@@ -48,7 +75,7 @@ ContentAreaContainer.Item = styled.div`
 ContentAreaContainer.Title = styled.h2`
     font-size: 35px;
     font-weight: 300;
-    line-height: 1;
+    line-height: 1.1;
     margin-top: 0;
     margin-bottom: 32px;
 

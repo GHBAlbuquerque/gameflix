@@ -27,7 +27,7 @@ export const MenuWrapper = styled.nav`
     left: 0;
 
     @media (max-width: 800px) {
-    height: 40px;
+    height: 45px;
     justify-content: center;
     }
 `;

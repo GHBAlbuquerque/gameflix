@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const VideoCardGroupContainer = styled.section`
     color: var(--white);
-    margin-left: 5%;
+    margin-left: 3%;
     margin-bottom: 20px;
     min-height: 197px;
 `;

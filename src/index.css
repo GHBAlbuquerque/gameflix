@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* { /*reset básico */
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root { /*CRIANDO MINHAS CORES PRIMÁRIAS*/
+  --primary: #30D99E;
+  --black: #000000;
+  --blackLighter: #9E9E9E;
+  --grayLight: #F5F5F5;
+  --grayMedium: #e5e5e5; 
+  --grayDark: #141414; 
+  --white: #FFFFFF;
+  --frontEnd: #59D2FE;
+  --backEnd: #5C7AFF;
+  --cRPG: #73FBD3;
+  --cAction: #44E5E7;
+  --cAdventure: #59D2FE;
+  --cSurvival: #4A8FE7;
+  --cSimulation: #5C7AFF;
 }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+} 

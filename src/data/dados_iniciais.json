@@ -1,0 +1,181 @@
+{
+  "categorias": [
+    {
+      "titulo": "RPG",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "cor": "#73FBD3",
+      "link_extra": {
+        "text": "Best RPG Games of All Time",
+        "url": "https://www.ign.com/lists/top-100-rpgs"
+      },
+      "videos": [
+        {
+          "titulo": "FINAL FANTASY VII Remake - O Início de Gameplay, em Português PT-BR | FF7 no PS4 Pro",
+          "url": "https://www.youtube.com/watch?v=Cpgh0p14DLI",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "SEO com React",
+          "url": "https://www.youtube.com/watch?v=c8mVlakBESE",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "Componentização com VanillaJS #AluraMais",
+          "url": "https://www.youtube.com/watch?v=LatCKpcOMak",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "Pare de chutar e aprenda a display: inline #01",
+          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
+          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "Novidades do Angular v9",
+          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "Base para aprender os frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        }
+      ]
+    },
+    {
+      "titulo": "Action",
+      "cor": "#44E5E7",
+      "link_extra": {
+        "text": "Top Action Games of All Time",
+        "url": "https://www.videogamer.com/top-games/action-games-all-time"
+      },
+      "videos": [
+        {
+          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
+          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
+          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
+          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "API: Dicionário do Programador",
+          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "Usando Git Direito",
+          "url": "https://www.youtube.com/watch?v=6OokP-NE49k",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        }
+      ]
+    },
+    {
+      "titulo": "Adventure",
+      "cor": "#59D2FE",
+      "link_extra": {
+        "text": "29 Essential, Must-Play Adventure Games",
+        "url": "https://www.ign.com/articles/2017/05/19/29-essential-must-play-adventure-games"
+      },
+      "videos": [
+        {
+          "titulo": "Teste de Turing",
+          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "O que é Data Science?",
+          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "Melhor forma de aprender Python",
+          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "Como ingressar no mercado de Data Science?",
+          "url": "https://www.youtube.com/watch?v=gxyjGmOV540",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        }
+      ]
+    },
+    {
+      "titulo": "Survival Horror",
+      "cor": "#4A8FE7",
+      "videos": [
+        {
+          "titulo": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "Gattaca",
+          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "A Chegada",
+          "url": "https://www.youtube.com/watch?v=rNciXGzYZms",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "Feitiço do Tempo",
+          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        }
+      ]
+    },
+    {
+      "titulo": "Simulation",
+      "cor": "#5C7AFF",
+      "link_extra": {
+        "text": "5 Reasons Why The Sims is the Greatest Video Game of All Time",
+        "url": "https://metro.co.uk/2018/02/09/5-reasons-why-the-sims-is-the-greatest-video-game-of-all-time-7296620/"
+      },
+      "videos": [
+        {
+          "titulo": "Final Fantasy 7",
+          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "Assassins Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "God of War 4",
+          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "Resident Evil 8",
+          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+          "titulo": "Pokémon Let's Go Pikachu/Eevee",
+          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs",
+          "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        }
+      ]
+    }
+  ]
+}

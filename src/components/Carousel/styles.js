@@ -43,11 +43,11 @@ export const ExtraLink = styled.a`
     }
 `;
 
-export const VideoCardList = styled.ul`
-    list-style: none;
-    padding-left: 0;
-    display: flex;
-    overflow-x: auto;
+// export const VideoCardList = styled.ul`
+//     list-style: none;
+//     padding-left: 0;
+//     display: flex;
+//     overflow-x: auto;
 
-`;
+// `;
 

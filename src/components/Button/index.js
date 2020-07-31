@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const Button = styled.button`
+const Button = styled.button`
     border: 1px solid var(--white);
     border-radius: 5px;
     color: var(--white);
@@ -33,5 +33,6 @@ export const Button = styled.button`
 
 export default Button;
 
-//O STYLED COMPONENT CRIA UM COMPONENTE BASICAMENTE SÓ COM CSS. ELE RECEBE AS PROPS "AUTOMATICAMENTE"
-// se ao inves e usar o button. eu quisesse usar o Link que me foi pasado com <Link to= >, bastaria colocar Button = styled(Link)
+// STYLED COMPONENT CRIA UM COMPONENTE BASICAMENTE SÓ COM CSS. ELE RECEBE AS PROPS "AUTOMATICAMENTE"
+// se ao inves e usar o button. eu quisesse usar o Link que me foi pasado com <Link to= >
+// bastaria colocar Button = styled(Link)

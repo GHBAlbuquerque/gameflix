@@ -14,8 +14,10 @@
         margin: auto;
         width: 30px;
         height: 30px;
+        /* color: inherit; */
+        /* border: 4px solid; */
+        /* border-radius: 50px; */
         transform: initial;
-        /* color: ${({categoryColor}) => `${categoryColor}`}; */
         &:before {
         font-size: 30px;
         }
@@ -40,8 +42,8 @@
     `;
 
 
-    const Slider = ({ children }) => (
-        <Container>
+    const Slider = ({ children, categoryColor }) => (
+        <Container style={{ color: categoryColor }}>
             <SlickSlider {...{
                 dots: false,
                 infinite: true,

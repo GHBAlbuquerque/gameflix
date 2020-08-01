@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import '../../index.css';
 import Menu from '../Menu';
@@ -12,12 +12,12 @@ const Main = styled.main`
     height: auto;
 `;
 
-function PageDefault(props) {
+function PageDefault({ children }) {
   return (
     <AppWrapper>
       <Menu />
       <Main>
-        {props.children}
+        {children}
       </Main>
       <Footer />
     </AppWrapper>

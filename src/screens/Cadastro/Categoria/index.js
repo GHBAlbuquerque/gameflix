@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/Field';
@@ -13,6 +13,18 @@ function CadastroCategoria() {
 
   const [values, setValues] = useState(valoresIniciais); // é um objeto!!
   const [categorias, setCategorias] = useState([]);
+
+  useEffect(() => {
+    const URL_API = 'http://localhost:8080/categorias';
+
+    fetch(URL_API)
+      .then(async (response) => {
+        const data = await response.json();
+        setCategorias([
+          ...data,
+        ]);
+      });
+  }, []);
 
   function setValue(chave, valor) {
     setValues({
@@ -73,9 +85,11 @@ function CadastroCategoria() {
         </Button>
       </form>
 
-      {categorias.length === 0 && <div>
-        <h2>Loading...</h2>
-      </div>}
+      {categorias.length === 0 && (
+      <div>
+        <h4>Loading...</h4>
+      </div>
+      )}
 
       <ul>
         {categorias.map((categoria) => (<li key={`${categoria.nome}`}>{categoria.nome}</li>))}
@@ -89,3 +103,25 @@ function CadastroCategoria() {
 }
 
 export default CadastroCategoria;
+
+// eslint-disable-next-line spaced-comment
+/*PODERIA TER FEITO ASSIM
+
+const URL_API = 'http://localhost:8080/categorias';
+
+  async function getCategory(url) {
+    const response = await fetch(url);
+    const data = await response.json();
+    console.log(data);
+    setCategorias([
+      ...categorias,
+      ...data,
+    ]);
+    console.log(categorias);
+    // return data;
+  }
+
+  useEffect(() => {
+    setTimeout(() => { getCategory(URL_API); }, 3000);
+  }, []);
+  */

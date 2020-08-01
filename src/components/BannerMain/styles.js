@@ -36,7 +36,6 @@ export const ContentAreaContainer = styled.section`
         /* margin: 0; */
     }
 
-}
     &:after,
     &:before {
         content: ""; /*é como se eu cirasse um elemento antes dos meus elementos*/
@@ -100,7 +99,6 @@ ContentAreaContainer.Category = styled.h1`
 
 
 `;
-
 
 export const WatchButton = styled.button`
     display: none;

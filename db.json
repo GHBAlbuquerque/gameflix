@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+        "id": "1",
+        "nome": "Dating Sim",
+        "descricao": "Categoria de Simuladores de Namoro",
+        "cor": "#6BD1FF"
+    },
+    {
+        "id": "2",
+        "nome": "MmorRPG",
+        "descricao": "Categoria RPG Online",
+        "cor": "#FFFFFF"
+    }
+]
+}

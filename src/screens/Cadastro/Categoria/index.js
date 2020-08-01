@@ -12,7 +12,7 @@ function CadastroCategoria() {
   };
 
   const [values, setValues] = useState(valoresIniciais); // é um objeto!!
-  const [categorias, setCategorias] = useState([valoresIniciais]);
+  const [categorias, setCategorias] = useState([]);
 
   function setValue(chave, valor) {
     setValues({
@@ -72,6 +72,10 @@ function CadastroCategoria() {
           Cadastrar
         </Button>
       </form>
+
+      {categorias.length === 0 && <div>
+        <h2>Loading...</h2>
+      </div>}
 
       <ul>
         {categorias.map((categoria) => (<li key={`${categoria.nome}`}>{categoria.nome}</li>))}

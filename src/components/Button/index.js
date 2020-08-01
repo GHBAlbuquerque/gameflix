@@ -14,6 +14,10 @@ const Button = styled.button`
         opacity: 0.5;
     }
 
+    a {
+        text-decoration:none;
+    }
+
     @media (max-width: 800px) {
         background-color: var(--primary);
         border: none;

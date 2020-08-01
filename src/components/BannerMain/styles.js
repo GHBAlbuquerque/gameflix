@@ -17,27 +17,7 @@ export const BannerMainContainer = styled.section`
     margin-bottom: 10px;
     /* mask: radial-gradient(ellipse, #FFFFFF 40%,  transparent 100%); */
 }
-    &:after,
-    &:before {
-        content: ""; /*é como se eu cirasse um elemento antes dos meus elementos*/
-        display: block;
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin: auto;
-        height: 20%;
-    }
 
-    &:before {
-        top: 0;
-        height: 100%;
-        background: rgba(0,0,0,0.4); /*CRIEI UM FUNDO PRETO aplicando através do filho, o efeito no background, se eu colocasse direto no pai, ia ficar preto*/
-        /* background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,212,255,0) 80%); */
-    }
-    &:after {
-        bottom: 0;
-        background: linear-gradient(0deg, #141414 0%, transparent 100%);
-    }
 `;
 
 export const ContentAreaContainer = styled.section`
@@ -51,6 +31,7 @@ export const ContentAreaContainer = styled.section`
 
     @media (max-width: 800px) {
         flex-direction: column;
+        text-align:center;
         /* padding-top: 100px; */
         /* margin: 0; */
     }
@@ -112,8 +93,10 @@ export const WatchButton = styled.button`
     padding: 16px 24px;
     margin-left: auto;
     margin-right: auto;
+    text-decoration:none;
 
     @media (max-width: 800px) {
-        display: block;
+        display: inline-block;
+
     }
 `;

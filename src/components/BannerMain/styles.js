@@ -35,6 +35,28 @@ export const ContentAreaContainer = styled.section`
         /* padding-top: 100px; */
         /* margin: 0; */
     }
+
+}
+    &:after,
+    &:before {
+        content: ""; /*é como se eu cirasse um elemento antes dos meus elementos*/
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 20%;
+    }
+    &:before {
+        top: 0;
+        height: 100%;
+        background: rgba(0,0,0,0.4); /*CRIEI UM FUNDO PRETO aplicando através do filho, o efeito no background, se eu colocasse direto no pai, ia ficar preto*/
+        /* background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,212,255,0) 80%); */
+    }
+    &:after {
+        bottom: 0;
+        background: linear-gradient(0deg, #141414 0%, transparent 100%);
+    }
 `;
 
 ContentAreaContainer.Item = styled.div`

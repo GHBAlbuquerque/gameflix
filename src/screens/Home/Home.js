@@ -1,49 +1,63 @@
-import React from '../../../node_modules/react';
+import React, { useEffect, useState } from '../../../node_modules/react';
 import '../../index.css';
-import dadosIniciais from '../../data/dados_iniciais.json'
-import Menu from '../../components/Menu';
-import BannerMain from '../../components/BannerMain'
-import Carousel from '../../components/Carousel'
-import Footer from '../../components/Footer'
-import {AppWrapper} from '../../components/Wrapper'
+import categoriasRepository from '../../repositories/categorias';
+import PageDefault from '../../components/PageDefault';
+import BannerMain from '../../components/BannerMain';
+import Carousel from '../../components/Carousel';
 
 function Home() {
+  const [dadosIniciais, setDadosIniciais] = useState([]);
+
+  useEffect(() => {
+    categoriasRepository.getAllWithVideos() // estou dando return de uma promise
+      .then((categoriasVideos) => {
+        setDadosIniciais(categoriasVideos);
+      })
+      .catch((err) => {
+        document.write(err.message);
+      });
+  }, []);
+
   return (
-    <AppWrapper>
-      <Menu />
-      <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo} //estou estrando na minha "API" e pegando os links
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={dadosIniciais.categorias[0].videos[0].videoDescription}
-      ></BannerMain>
+    <PageDefault paddingAll={0}>
 
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[0]} //estou passando minha categoria inteira
-      ></Carousel>
+      {dadosIniciais.length >= 1 && (
+        <>
+          <BannerMain
+            videoTitle={dadosIniciais[[0]].videos[0].titulo} // pegando links da api
+            url={dadosIniciais[[0]].videos[0].url}
+            videoDescription={dadosIniciais[[0]].videos[0].videoDescription}
+          />
 
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[1]} //estou passando minha categoria inteira
-      ></Carousel>
+          <Carousel
+            ignoreFirstVideo
+            category={dadosIniciais[0]}
+          />
 
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[2]} //estou passando minha categoria inteira
-      ></Carousel>
+          <Carousel
+            ignoreFirstVideo
+            category={dadosIniciais[1]}
+          />
 
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[3]} //estou passando minha categoria inteira
-      ></Carousel>
+          <Carousel
+            ignoreFirstVideo
+            category={dadosIniciais[2]}
+          />
 
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[4]} //estou passando minha categoria inteira
-      ></Carousel>
+          <Carousel
+            ignoreFirstVideo
+            category={dadosIniciais[3]}
+          />
 
-      <Footer></Footer>
-    </AppWrapper>
+          <Carousel
+            ignoreFirstVideo
+            category={dadosIniciais[4]}
+          />
+
+        </>
+      )}
+
+    </PageDefault>
   );
 }
 

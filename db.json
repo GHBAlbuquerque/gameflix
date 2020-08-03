@@ -1,86 +1,226 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "titulo": "RPG",
-            "cor": "#73FBD3",
-            "link_extra": {
-                "text": "Best RPG Games of All Time",
-                "url": "https://www.ign.com/lists/top-100-rpgs"
-            }
-        },
-        {
-            "id": 2,
-            "titulo": "Action",
-            "cor": "#44E5E7",
-            "link_extra": {
-                "text": "Top Action Games of All Time",
-                "url": "https://www.videogamer.com/top-games/action-games-all-time"
-            }
-        },
-        {
-            "id": 3,
-            "titulo": "Adventure",
-            "cor": "#59D2FE",
-            "link_extra": {
-                "text": "29 Essential, Must-Play Adventure Games",
-                "url": "https://www.ign.com/articles/2017/05/19/29-essential-must-play-adventure-games"
-            }
-        },
-        {
-            "id": 4,
-            "titulo": "Survival Horror",
-            "cor": "#4A8FE7",
-            "link_extra": {
-                "text": "Best RPG Games of All Time",
-                "url": "https://www.ign.com/lists/top-100-rpgs"
-            }
-        },
-        {
-            "id": 5,
-            "titulo": "Simulation",
-            "cor": "#5C7AFF",
-            "link_extra": {
-                "text": "5 Reasons Why The Sims is the Greatest Video Game of All Time",
-                "url": "https://metro.co.uk/2018/02/09/5-reasons-why-the-sims-is-the-greatest-video-game-of-all-time-7296620/"
-            }
-        }
-    ],
-    "videos": [
-        {
-            "id": 1,
-            "categoriaId": 1,
-            "titulo": "FINAL FANTASY VII Remake - O Início de Gameplay, em Português PT-BR | FF7 no PS4 Pro",
-            "url": "https://www.youtube.com/watch?v=Cpgh0p14DLI",
-            "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
-        },
-        {
-            "id": 2,
-            "categoriaId": 1,
-            "titulo": "FINAL FANTASY VII Remake - O Início de Gameplay, em Português PT-BR | FF7 no PS4 Pro",
-            "url": "https://www.youtube.com/watch?v=Cpgh0p14DLI",
-            "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
-        },
-        {
-            "id": 3,
-            "categoriaId": 1,
-            "titulo": "FINAL FANTASY VII Remake - O Início de Gameplay, em Português PT-BR | FF7 no PS4 Pro",
-            "url": "https://www.youtube.com/watch?v=Cpgh0p14DLI",
-            "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
-        },
-        {
-            "id": 4,
-            "categoriaId": 1,
-            "titulo": "FINAL FANTASY VII Remake - O Início de Gameplay, em Português PT-BR | FF7 no PS4 Pro",
-            "url": "https://www.youtube.com/watch?v=Cpgh0p14DLI",
-            "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
-        },
-        {
-            "id": 5,
-            "categoriaId": 1,
-            "titulo": "FINAL FANTASY VII Remake - O Início de Gameplay, em Português PT-BR | FF7 no PS4 Pro",
-            "url": "https://www.youtube.com/watch?v=Cpgh0p14DLI",
-            "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "RPG",
+      "cor": "#73FBD3",
+      "link_extra": {
+        "text": "Best RPG Games of All Time",
+        "url": "https://www.ign.com/lists/top-100-rpgs"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Action",
+      "cor": "#44E5E7",
+      "link_extra": {
+        "text": "Top Action Games of All Time",
+        "url": "https://www.videogamer.com/top-games/action-games-all-time"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Adventure",
+      "cor": "#59D2FE",
+      "link_extra": {
+        "text": "29 Essential, Must-Play Adventure Games",
+        "url": "https://www.ign.com/articles/2017/05/19/29-essential-must-play-adventure-games"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Survival Horror",
+      "cor": "#4A8FE7",
+      "link_extra": {
+        "text": "Silent Hill PS5 Rumors Explained: Is It Really Happening?",
+        "url": "https://screenrant.com/silent-hill-ps5-rumors-leaks-playstation-release-announcement/"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Simulation",
+      "cor": "#5C7AFF",
+      "link_extra": {
+        "text": "5 Reasons Why The Sims is the Greatest Video Game of All Time",
+        "url": "https://metro.co.uk/2018/02/09/5-reasons-why-the-sims-is-the-greatest-video-game-of-all-time-7296620/"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "FINAL FANTASY VII Remake - O Início de Gameplay, em Português PT-BR | FF7 no PS4 Pro",
+      "url": "https://www.youtube.com/watch?v=Cpgh0p14DLI",
+      "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "FINAL FANTASY VII Remake - O Início de Gameplay, em Português PT-BR | FF7 no PS4 Pro",
+      "url": "https://www.youtube.com/watch?v=Cpgh0p14DLI",
+      "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "FINAL FANTASY VII Remake - O Início de Gameplay, em Português PT-BR | FF7 no PS4 Pro",
+      "url": "https://www.youtube.com/watch?v=Cpgh0p14DLI",
+      "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "FINAL FANTASY VII Remake - O Início de Gameplay, em Português PT-BR | FF7 no PS4 Pro",
+      "url": "https://www.youtube.com/watch?v=Cpgh0p14DLI",
+      "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "FINAL FANTASY VII Remake - O Início de Gameplay, em Português PT-BR | FF7 no PS4 Pro",
+      "url": "https://www.youtube.com/watch?v=Cpgh0p14DLI",
+      "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+    },
+    {
+      "id": 6,
+      "categoriaId": 2,
+      "titulo": "Uncharted Drake's Fortune - Parte 1: El Dorado!!!",
+      "url": "https://www.youtube.com/watch?v=8ac_3007O24",
+      "videoDescription": "Drake's Fortune na versão Collection do Playstation 4, com gráficos renovados, em 1080p60fps e totalmente dublado em Português do Brasil."
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "Uncharted Drake's Fortune - Parte 1: El Dorado!!!",
+      "url": "https://www.youtube.com/watch?v=8ac_3007O24",
+      "videoDescription": "Drake's Fortune na versão Collection do Playstation 4, com gráficos renovados, em 1080p60fps e totalmente dublado em Português do Brasil."
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Uncharted Drake's Fortune - Parte 1: El Dorado!!!",
+      "url": "https://www.youtube.com/watch?v=8ac_3007O24",
+      "videoDescription": "Drake's Fortune na versão Collection do Playstation 4, com gráficos renovados, em 1080p60fps e totalmente dublado em Português do Brasil."
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Uncharted Drake's Fortune - Parte 1: El Dorado!!!",
+      "url": "https://www.youtube.com/watch?v=8ac_3007O24",
+      "videoDescription": "Drake's Fortune na versão Collection do Playstation 4, com gráficos renovados, em 1080p60fps e totalmente dublado em Português do Brasil."
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Uncharted Drake's Fortune - Parte 1: El Dorado!!!",
+      "url": "https://www.youtube.com/watch?v=8ac_3007O24",
+      "videoDescription": "Drake's Fortune na versão Collection do Playstation 4, com gráficos renovados, em 1080p60fps e totalmente dublado em Português do Brasil."
+    },
+    {
+      "id": 11,
+      "categoriaId": 3,
+      "titulo": "HORIZON ZERO DAWN - O Início de Gameplay, em Português! (PS4 Pro)",
+      "url": "https://www.youtube.com/watch?v=Uv6OvwqEPGM",
+      "videoDescription": "Vídeo gameplay do jogo Horizon Zero Dawn, em Português PT-BR no PS4 Pro. Game exclusivo de PS4."
+    },
+    {
+      "id": 12,
+      "categoriaId": 3,
+      "titulo": "HORIZON ZERO DAWN - O Início de Gameplay, em Português! (PS4 Pro)",
+      "url": "https://www.youtube.com/watch?v=Uv6OvwqEPGM",
+      "videoDescription": "Vídeo gameplay do jogo Horizon Zero Dawn, em Português PT-BR no PS4 Pro. Game exclusivo de PS4."
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "HORIZON ZERO DAWN - O Início de Gameplay, em Português! (PS4 Pro)",
+      "url": "https://www.youtube.com/watch?v=Uv6OvwqEPGM",
+      "videoDescription": "Vídeo gameplay do jogo Horizon Zero Dawn, em Português PT-BR no PS4 Pro. Game exclusivo de PS4."
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "HORIZON ZERO DAWN - O Início de Gameplay, em Português! (PS4 Pro)",
+      "url": "https://www.youtube.com/watch?v=Uv6OvwqEPGM",
+      "videoDescription": "Vídeo gameplay do jogo Horizon Zero Dawn, em Português PT-BR no PS4 Pro. Game exclusivo de PS4."
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "HORIZON ZERO DAWN - O Início de Gameplay, em Português! (PS4 Pro)",
+      "url": "https://www.youtube.com/watch?v=Uv6OvwqEPGM",
+      "videoDescription": "Vídeo gameplay do jogo Horizon Zero Dawn, em Português PT-BR no PS4 Pro. Game exclusivo de PS4."
+    },
+    {
+      "id": 16,
+      "categoriaId": 4,
+      "titulo": "RESIDENT EVIL 2 REMAKE : LEON A #1 - O INÍCIO DE GAMEPLAY",
+      "url": "https://www.youtube.com/watch?v=YRpk5MPPl-U",
+      "videoDescription": "Vídeo com o início de gameplay de Resident Evil 2 Remake legendado em Português."
+    },
+    {
+      "id": 17,
+      "categoriaId": 4,
+      "titulo": "RESIDENT EVIL 2 REMAKE : LEON A #1 - O INÍCIO DE GAMEPLAY",
+      "url": "https://www.youtube.com/watch?v=YRpk5MPPl-U",
+      "videoDescription": "Vídeo com o início de gameplay de Resident Evil 2 Remake legendado em Português."
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "RESIDENT EVIL 2 REMAKE : LEON A #1 - O INÍCIO DE GAMEPLAY",
+      "url": "https://www.youtube.com/watch?v=YRpk5MPPl-U",
+      "videoDescription": "Vídeo com o início de gameplay de Resident Evil 2 Remake legendado em Português."
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "RESIDENT EVIL 2 REMAKE : LEON A #1 - O INÍCIO DE GAMEPLAY",
+      "url": "https://www.youtube.com/watch?v=YRpk5MPPl-U",
+      "videoDescription": "Vídeo com o início de gameplay de Resident Evil 2 Remake legendado em Português."
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "RESIDENT EVIL 2 REMAKE : LEON A #1 - O INÍCIO DE GAMEPLAY",
+      "url": "https://www.youtube.com/watch?v=YRpk5MPPl-U",
+      "videoDescription": "Vídeo com o início de gameplay de Resident Evil 2 Remake legendado em Português."
+    },
+    {
+      "id": 21,
+      "categoriaId": 5,
+      "titulo": "Stardew Valley #01 'Cansei da vida moderna' - Gameplay Fazenda estilo Harvest Moon ",
+      "url": "https://www.youtube.com/watch?v=ALZg5XeOENQ",
+      "videoDescription": "Acompanhe a gameplay traduzida e narrada em ptbr de Stardew Valley."
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "Stardew Valley #01 'Cansei da vida moderna' - Gameplay Fazenda estilo Harvest Moon ",
+      "url": "https://www.youtube.com/watch?v=ALZg5XeOENQ",
+      "videoDescription": "Acompanhe a gameplay traduzida e narrada em ptbr de Stardew Valley."
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "Stardew Valley #01 'Cansei da vida moderna' - Gameplay Fazenda estilo Harvest Moon ",
+      "url": "https://www.youtube.com/watch?v=ALZg5XeOENQ",
+      "videoDescription": "Acompanhe a gameplay traduzida e narrada em ptbr de Stardew Valley."
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "Stardew Valley #01 'Cansei da vida moderna' - Gameplay Fazenda estilo Harvest Moon ",
+      "url": "https://www.youtube.com/watch?v=ALZg5XeOENQ",
+      "videoDescription": "Acompanhe a gameplay traduzida e narrada em ptbr de Stardew Valley."
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "Stardew Valley #01 'Cansei da vida moderna' - Gameplay Fazenda estilo Harvest Moon ",
+      "url": "https://www.youtube.com/watch?v=ALZg5XeOENQ",
+      "videoDescription": "Acompanhe a gameplay traduzida e narrada em ptbr de Stardew Valley."
+    }
+  ]
 }

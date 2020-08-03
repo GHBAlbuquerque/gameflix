@@ -75,13 +75,14 @@ const Input = styled.input`
 `; // tag de template string: pesquisae
 
 function FormField({
-  labelName, type, name, value, handleChange,
+  labelName, type, name, value, handleChange, suggestions,
 }) {
   const fieldId = `Id_${name}`;
   const isTypeTextArea = type === 'textarea';
   const tag = isTypeTextArea ? 'textarea' : 'input';
 
   const hasValue = Boolean(value.length); // vendo se eu tenho um value p/ usar no styled components
+  const hasSuggestions = Boolean(suggestions.length);
 
   return (
     <FormFieldWrapper>
@@ -94,12 +95,22 @@ function FormField({
           value={value}
           hasValue={hasValue}
           onChange={handleChange}
+          autocomplete={hasSuggestions ? 'off' : undefined}
+          list={`suggestionFor_${fieldId}`}
         />
 
         <Label.Text>
           {labelName}
           :
         </Label.Text>
+        { hasSuggestions && ( // só vai renderizar isso quando eu receber essa props
+          <datalist id={`suggestionFor_${fieldId}`}>
+            {suggestions.map((suggestion) => (
+              <option value={suggestion} key={`euggestionFor_${fieldId}_option${suggestion}`}>{suggestion}</option>
+            ))}
+          </datalist>
+        )}
+
       </Label>
     </FormFieldWrapper>
   );
@@ -109,6 +120,7 @@ FormField.defaultProps = {
   type: 'text',
   value: '',
   handleChange: () => {},
+  suggestions: [],
 };
 
 FormField.propTypes = {
@@ -117,6 +129,7 @@ FormField.propTypes = {
   name: PropTypes.string.isRequired,
   value: PropTypes.string,
   handleChange: PropTypes.func,
+  suggestions: PropTypes.arrayOf(PropTypes.string),
 };
 
 export default FormField;

@@ -3,41 +3,48 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/Field';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
+import categoriasRepository from '../../../repositories/categorias';
+
+// MEU COMPONENTE COM STATE
 
 function CadastroCategoria() {
   const valoresIniciais = { // crio um objeto que vai ter os campos da categoria
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '#000000',
+    link_extra: {
+      text: '',
+      url: '',
+    },
   };
 
-  const [values, setValues] = useState(valoresIniciais); // é um objeto!!
+  const { values, handleChange, clearForm } = useForm(valoresIniciais);
+  /* vou puxar meu custom hook e abrir aqui dentro */
+
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
-    const URL_API = 'http://localhost:8080/categorias';
-
-    fetch(URL_API)
-      .then(async (response) => {
-        const data = await response.json();
-        setCategorias([
-          ...data,
-        ]);
+    categoriasRepository
+      .getAll()
+      .then((categoriasFromServer) => {
+        setCategorias(categoriasFromServer);
       });
   }, []);
 
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor,
-    });
-  }
+  // useEffect(() => {
+  //   const URL_API = window.location.hostname.includes('localhost')
+  //     ? 'http://localhost:8080/categorias'
+  //     : 'https://gameflix-ghba.herokuapp.com/categorias';
 
-  function handleChange(event) {
-    setValue(event.target.name, // ou getAttribute("name")
-      event.target.value);
-    // console.log(event.target.name,event.target.value)
-  }
+  //   fetch(URL_API)
+  //     .then(async (response) => {
+  //       const data = await response.json();
+  //       setCategorias([
+  //         ...data,
+  //       ]);
+  //     });
+  // }, []);
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -45,23 +52,23 @@ function CadastroCategoria() {
       ...categorias, // pegamos o que ja tinhamos
       values,
     ]);
-    setValues({ nome: '', descricao: '', cor: '#000000' });
+    clearForm(valoresIniciais);
   }
 
   return (
     <PageDefault>
       <h1>
         Página de cadastro de Categorias:
-        {values.nome}
+        {values.titulo}
       </h1>
       <form onSubmit={handleSubmit}>
 
         <FormField
-          labelName="Nome da Categoria"
-          value={values.nome}
+          labelName="Título da Categoria"
+          value={values.titulo}
           handleChange={handleChange}
           type="text"
-          name="nome"
+          name="titulo"
         />
 
         <FormField
@@ -80,19 +87,35 @@ function CadastroCategoria() {
           name="cor"
         />
 
-        <Button>
+        <FormField
+          labelName="Conteúdo extra"
+          value={values.link_extra.text}
+          handleChange={handleChange}
+          type="text"
+          name="link_extra_text"
+        />
+
+        <FormField
+          labelName="Conteúdo extra - link"
+          value={values.link_extra.url}
+          handleChange={handleChange}
+          type="text"
+          name="link_extra_url"
+        />
+
+        <Button type="submit">
           Cadastrar
         </Button>
       </form>
 
       {categorias.length === 0 && (
-      <div>
-        <h4>Loading...</h4>
-      </div>
+        <div>
+          <h4>Loading...</h4>
+        </div>
       )}
 
       <ul>
-        {categorias.map((categoria) => (<li key={`${categoria.nome}`}>{categoria.nome}</li>))}
+        {categorias.map((categoria) => (<li key={`${categoria.titulo}`}>{categoria.titulo}</li>))}
       </ul>
 
       <Link to="/cadastro/video">

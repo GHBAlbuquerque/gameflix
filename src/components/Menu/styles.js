@@ -14,7 +14,7 @@ export const MenuWrapper = styled.nav`
     border-bottom: 1px solid var(--primary);
     display: flex; /*vai aplicar flex no CONTEÚDO*/
     height: 94px;
-    justify-content: space-between;
+    justify-content: space-between; /*colocou nas bordas e dividiu o espaco do meio em 2*/
     padding-left: 5%;
     padding-right: 5%;
     position: fixed; /*quando colocamos qualquer coisa aqui que nao seja auto, podemos alterar a referência*/
@@ -31,4 +31,4 @@ export const MenuWrapper = styled.nav`
     justify-content: center;
     }
 `;
-/*estou importanto um styled component dentro de um styled component e editando ele*/
+/* estou importanto um styled component dentro de um styled component e editando ele */

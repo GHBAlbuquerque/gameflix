@@ -61,8 +61,8 @@ const Input = styled.input`
     border-bottom-color: var(--primary);
   }
 
-  &:focus:not([type="color"]) + span { /* É O SELETRO DE NEXT SIBLING, por isso passei o label para depois*/
-    transform: scale(.6) translateY(-10px);
+  &:focus:not([type="color"]) + span { /* + É O SELETOR DE NEXT SIBLING, por isso passei o label para depois ali em baixo*/
+    transform: scale(.6) translateY(-10px); /*no caso, o FOCUS:NOT é para ignorar quando meu elemento input tiver type=color!*/
   }
 
   ${function ({ hasValue }) { /* com esse value true ou false, crio uma função que vai manter o texto pequeno se true */

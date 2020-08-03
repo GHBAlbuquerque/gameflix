@@ -15,7 +15,7 @@ function CadastroCategoria() {
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
-    const URL_API = 'https://gameflix-ghba.herokuapp.com/categorias';
+    const URL_API = 'http://localhost:8080/categorias';
 
     fetch(URL_API)
       .then(async (response) => {
@@ -125,4 +125,5 @@ const URL_API = 'http://localhost:8080/categorias';
     setTimeout(() => { getCategory(URL_API); }, 3000);
   }, []);
 
+  https://gameflix-ghba.herokuapp.com/categorias
   */

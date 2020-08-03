@@ -1,34 +1,86 @@
 {
     "categorias": [
         {
-        "id": "1",
-        "nome": "Dating Sim",
-        "descricao": "Categoria de Simuladores de Namoro",
-        "cor": "#6BD1FF"
-    },
-    {
-        "id": "2",
-        "nome": "MmorRPG",
-        "descricao": "Categoria RPG Online",
-        "cor": "#FFFFFF"
-    },
-    {
-        "id": "3",
-        "nome": "JRPG",
-        "descricao": "Categoria RPG Japonês",
-        "cor": "#FFFFFF"
-    },
-    {
-        "id": "4",
-        "nome": "FarmSim",
-        "descricao": "Categoria Simuladores de Fazenda",
-        "cor": "#FFFFFF"
-    },    
-    {
-        "id": "5",
-        "nome": "Old but gold",
-        "descricao": "Categoria Jogos Antigos",
-        "cor": "#FFFFFF"
-    }
-]
+            "id": 1,
+            "titulo": "RPG",
+            "cor": "#73FBD3",
+            "link_extra": {
+                "text": "Best RPG Games of All Time",
+                "url": "https://www.ign.com/lists/top-100-rpgs"
+            }
+        },
+        {
+            "id": 2,
+            "titulo": "Action",
+            "cor": "#44E5E7",
+            "link_extra": {
+                "text": "Top Action Games of All Time",
+                "url": "https://www.videogamer.com/top-games/action-games-all-time"
+            }
+        },
+        {
+            "id": 3,
+            "titulo": "Adventure",
+            "cor": "#59D2FE",
+            "link_extra": {
+                "text": "29 Essential, Must-Play Adventure Games",
+                "url": "https://www.ign.com/articles/2017/05/19/29-essential-must-play-adventure-games"
+            }
+        },
+        {
+            "id": 4,
+            "titulo": "Survival Horror",
+            "cor": "#4A8FE7",
+            "link_extra": {
+                "text": "Best RPG Games of All Time",
+                "url": "https://www.ign.com/lists/top-100-rpgs"
+            }
+        },
+        {
+            "id": 5,
+            "titulo": "Simulation",
+            "cor": "#5C7AFF",
+            "link_extra": {
+                "text": "5 Reasons Why The Sims is the Greatest Video Game of All Time",
+                "url": "https://metro.co.uk/2018/02/09/5-reasons-why-the-sims-is-the-greatest-video-game-of-all-time-7296620/"
+            }
+        }
+    ],
+    "videos": [
+        {
+            "id": 1,
+            "categoriaId": 1,
+            "titulo": "FINAL FANTASY VII Remake - O Início de Gameplay, em Português PT-BR | FF7 no PS4 Pro",
+            "url": "https://www.youtube.com/watch?v=Cpgh0p14DLI",
+            "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+            "id": 2,
+            "categoriaId": 1,
+            "titulo": "FINAL FANTASY VII Remake - O Início de Gameplay, em Português PT-BR | FF7 no PS4 Pro",
+            "url": "https://www.youtube.com/watch?v=Cpgh0p14DLI",
+            "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+            "id": 3,
+            "categoriaId": 1,
+            "titulo": "FINAL FANTASY VII Remake - O Início de Gameplay, em Português PT-BR | FF7 no PS4 Pro",
+            "url": "https://www.youtube.com/watch?v=Cpgh0p14DLI",
+            "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+            "id": 4,
+            "categoriaId": 1,
+            "titulo": "FINAL FANTASY VII Remake - O Início de Gameplay, em Português PT-BR | FF7 no PS4 Pro",
+            "url": "https://www.youtube.com/watch?v=Cpgh0p14DLI",
+            "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        },
+        {
+            "id": 5,
+            "categoriaId": 1,
+            "titulo": "FINAL FANTASY VII Remake - O Início de Gameplay, em Português PT-BR | FF7 no PS4 Pro",
+            "url": "https://www.youtube.com/watch?v=Cpgh0p14DLI",
+            "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+        }
+    ]
 }

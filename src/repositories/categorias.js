@@ -2,8 +2,8 @@ import config from '../config';
 
 const URL_CATEGORIES = `${config.URL_API}/categorias`;
 
-function getAllWithVideos() {
-  return fetch(`${URL_CATEGORIES}?_embed=videos`) // pq esse return?
+function getAll() {
+  return fetch(`${URL_CATEGORIES}`) // pq esse return?
     .then(async (response) => {
       if (response.ok) {
         const data = await response.json();
@@ -13,8 +13,8 @@ function getAllWithVideos() {
     });
 }
 
-function getAll() {
-  return fetch(`${URL_CATEGORIES}`) // pq esse return?
+function getAllWithVideos() {
+  return fetch(`${URL_CATEGORIES}?_embed=videos`) // pq esse return?
     .then(async (response) => {
       if (response.ok) {
         const data = await response.json();

@@ -62,6 +62,7 @@ a {
 }
 
 @media (max-width: 800px) {
+    color: var(--white);
     background-color: var(--primary);
     border: none;
     font-size: 14px;

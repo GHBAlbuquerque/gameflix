@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/Field';
 import { ButtonForm } from '../../../components/Button';
@@ -9,14 +9,15 @@ import categoriasRepository from '../../../repositories/categorias';
 // MEU COMPONENTE COM STATE
 
 function CadastroCategoria() {
+  const history = useHistory();
   const valoresIniciais = { // crio um objeto que vai ter os campos da categoria
     titulo: '',
     descricao: '',
     cor: '#000000',
-    link_extra: {
-      text: '',
-      url: '',
-    },
+    // link_extra: {
+    //   text: '',
+    //   url: '',
+    // },
   };
 
   const { values, handleChange, clearForm } = useForm(valoresIniciais);
@@ -25,26 +26,12 @@ function CadastroCategoria() {
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
-    categoriasRepository
-      .getAll()
+    categoriasRepository.getAll()
       .then((categoriasFromServer) => {
+        console.log(categoriasFromServer);
         setCategorias(categoriasFromServer);
       });
   }, []);
-
-  // useEffect(() => {
-  //   const URL_API = window.location.hostname.includes('localhost')
-  //     ? 'http://localhost:8080/categorias'
-  //     : 'https://gameflix-ghba.herokuapp.com/categorias';
-
-  //   fetch(URL_API)
-  //     .then(async (response) => {
-  //       const data = await response.json();
-  //       setCategorias([
-  //         ...data,
-  //       ]);
-  //     });
-  // }, []);
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -52,7 +39,8 @@ function CadastroCategoria() {
       ...categorias, // pegamos o que ja tinhamos
       values,
     ]);
-    clearForm(valoresIniciais);
+    clearForm();
+    history.push('/');
   }
 
   return (
@@ -87,12 +75,12 @@ function CadastroCategoria() {
           name="cor"
         />
 
-        <FormField
+        {/* <FormField
           labelName="Conteúdo extra"
           value={values.link_extra.text}
           handleChange={handleChange}
           type="text"
-          name="link_extra_text"
+          name="link_extra.text"
         />
 
         <FormField
@@ -100,8 +88,8 @@ function CadastroCategoria() {
           value={values.link_extra.url}
           handleChange={handleChange}
           type="text"
-          name="link_extra_url"
-        />
+          name="link_extra.url"
+        /> */}
 
         <ButtonForm type="submit">
           Cadastrar
@@ -149,4 +137,18 @@ const URL_API = 'http://localhost:8080/categorias';
   }, []);
 
   https://gameflix-ghba.herokuapp.com/categorias
-  */
+
+  -------OLD-------
+  // useEffect(() => {
+  //   const URL_API = window.location.hostname.includes('localhost')
+  //     ? 'http://localhost:8080/categorias'
+  //     : 'https://gameflix-ghba.herokuapp.com/categorias';
+
+  //   fetch(URL_API)
+  //     .then(async (response) => {
+  //       const data = await response.json();
+  //       setCategorias([
+  //         ...data,
+  //       ]);
+  //     });
+  // }, []);*/

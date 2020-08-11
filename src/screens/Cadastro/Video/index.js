@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
+import useForm from '../../../hooks/useForm';
 import FormField from '../../../components/Field';
 import { ButtonForm } from '../../../components/Button';
-import useForm from '../../../hooks/useForm';
 import videosRepository from '../../../repositories/videos';
 import categoriasRepository from '../../../repositories/categorias';
 
@@ -22,9 +22,8 @@ function CadastroVideo() {
   function handleSubmit(event) {
     event.preventDefault();
 
-    const categoriaEscolhida = categorias.find((categoria) =>
-    // eslint-disable-next-line indent
-     categoria.titulo === values.categoria);
+    // eslint-disable-next-line max-len
+    const categoriaEscolhida = categorias.find((categoria) => categoria.titulo === values.categoria);
 
     videosRepository.createVideos({
       titulo: values.titulo,
@@ -32,7 +31,6 @@ function CadastroVideo() {
       categoriaId: categoriaEscolhida.Id,
     })
       .then(() => {
-        console.log('cadastro');
         history.push('/');
       });
   }
@@ -80,7 +78,7 @@ function CadastroVideo() {
           Cadastrar
         </ButtonForm>
       </form>
-{/* 
+      {/*
       <Link to="/cadastro/categoria">
         Cadastrar Categoria
       </Link> */}

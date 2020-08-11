@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/Field';
-import Button from '../../../components/Button';
+import { ButtonForm } from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
 import categoriasRepository from '../../../repositories/categorias';
 
@@ -103,12 +103,12 @@ function CadastroCategoria() {
           name="link_extra_url"
         />
 
-        <Button type="submit">
+        <ButtonForm type="submit">
           Cadastrar
-        </Button>
+        </ButtonForm>
       </form>
 
-      {categorias.length === 0 && (
+      {/* {categorias.length === 0 && (
         <div>
           <h4>Loading...</h4>
         </div>
@@ -120,7 +120,7 @@ function CadastroCategoria() {
 
       <Link to="/cadastro/video">
         Cadastrar Video
-      </Link>
+      </Link> */}
     </PageDefault>
   );
 }

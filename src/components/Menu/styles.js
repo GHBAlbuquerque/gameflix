@@ -31,4 +31,23 @@ export const MenuWrapper = styled.nav`
     justify-content: center;
     }
 `;
+
+export const DivButton = styled.div`
+
+@media (max-width: 800px) {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &:first-child {
+        position: absolute;
+        bottom: 100px;
+    }
+}
+`;
+
 /* estou importanto um styled component dentro de um styled component e editando ele */

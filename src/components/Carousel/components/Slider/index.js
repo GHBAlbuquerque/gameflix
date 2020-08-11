@@ -1,8 +1,9 @@
-    import React from 'react';
-    import styled from 'styled-components';
-    import SlickSlider from 'react-slick';
+import React from 'react';
+import styled from 'styled-components';
+import SlickSlider from 'react-slick';
+import PropTypes from 'prop-types';
 
-    const Container = styled.ul`
+const Container = styled.ul`
     padding: 0;
     padding-top: 10px;
     margin: 0;
@@ -31,31 +32,41 @@
     }
     `;
 
-    export const SliderItem = styled.li`
+export const SliderItem = styled.li`
     margin-right: 16px;
-    /* img {
-        margin: 16px;
-        width: 298px;
-        height: 197px;
-        object-fit: cover;
-    } */
-    `;
+    transition: opacity .3s;
 
+    &:hover,
+    &:focus {
+        opacity: .5;
+        transform: scale(1.1);
+    }
+`;
 
-    const Slider = ({ children, categoryColor }) => (
-        <Container style={{ color: categoryColor }}>
-            <SlickSlider {...{
-                dots: false,
-                infinite: true,
-                speed: 300,
-                centerMode: false,
-                variableWidth: true,
-                adaptiveHeight: true,
-            }}
-            >
-                {children}
-            </SlickSlider>
-        </Container>
-    );
+const Slider = ({ children, categoryColor }) => (
+  <Container style={{ color: categoryColor }}>
+    <SlickSlider {...{
+      dots: false,
+      infinite: true,
+      speed: 300,
+      centerMode: false,
+      variableWidth: true,
+      adaptiveHeight: true,
+    }}
+    >
+      {children}
+    </SlickSlider>
+  </Container>
+);
 
-    export default Slider;
+Slider.defaultProps = {
+  children: '',
+  categoryColor: '',
+};
+
+Slider.propTypes = {
+  children: PropTypes.string,
+  categoryColor: PropTypes.string,
+};
+
+export default Slider;

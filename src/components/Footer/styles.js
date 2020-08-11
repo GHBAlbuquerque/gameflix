@@ -9,7 +9,7 @@ export const FooterBase = styled.footer`
 
 
     @media (max-width: 800px) {
-        margin-bottom: 40px;
+        margin-bottom: 55px;
         font-size: 0.8;
         font-weight: 300;
     }

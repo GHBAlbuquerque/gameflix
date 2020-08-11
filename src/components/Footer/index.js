@@ -11,9 +11,10 @@ function Footer() {
         Orgulhosamente criado durante a
         {' '}
         <FooterLink href="https://www.alura.com.br/">
-          Imersão React da Alura 
+          Imersão React da Alura
         </FooterLink>
-        {' '}por Giovanna Albuquerque
+        {' '}
+        por Giovanna Albuquerque
       </p>
     </FooterBase>
   );

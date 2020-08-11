@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/Field';
-import Button from '../../../components/Button';
+import { ButtonForm } from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
 import videosRepository from '../../../repositories/videos';
 import categoriasRepository from '../../../repositories/categorias';
@@ -76,14 +76,14 @@ function CadastroVideo() {
           suggestions={categorytTitles}
         />
 
-        <Button type="submit">
+        <ButtonForm type="submit">
           Cadastrar
-        </Button>
+        </ButtonForm>
       </form>
-
+{/* 
       <Link to="/cadastro/categoria">
         Cadastrar Categoria
-      </Link>
+      </Link> */}
     </PageDefault>
   );
 }

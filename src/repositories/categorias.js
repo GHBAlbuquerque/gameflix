@@ -24,7 +24,25 @@ function getAllWithVideos() {
     });
 }
 
+function createCategoria(objetoDaCategoria) {
+  return fetch(`${URL_CATEGORIES}`, {
+    method: 'POST',
+    headers: {
+      'Content-type': 'application/json',
+    },
+    body: JSON.stringify(objetoDaCategoria),
+  })
+    .then(async (response) => {
+      if (response.ok) {
+        const data = await response.json();
+        return data;
+      }
+      throw new Error('Não foi possível cadastrar Categoria');
+    });
+}
+
 export default {
   getAllWithVideos,
   getAll,
+  createCategoria,
 };

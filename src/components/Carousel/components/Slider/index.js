@@ -60,12 +60,10 @@ const Slider = ({ children, categoryColor }) => (
 );
 
 Slider.defaultProps = {
-  children: '',
   categoryColor: '',
 };
 
 Slider.propTypes = {
-  children: PropTypes.string,
   categoryColor: PropTypes.string,
 };
 

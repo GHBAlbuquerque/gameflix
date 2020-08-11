@@ -28,7 +28,7 @@ function CadastroVideo() {
     videosRepository.createVideos({
       titulo: values.titulo,
       url: values.url,
-      categoriaId: categoriaEscolhida.Id,
+      categoriaId: categoriaEscolhida.id,
     })
       .then(() => {
         history.push('/');
@@ -36,8 +36,7 @@ function CadastroVideo() {
   }
 
   useEffect(() => {
-    categoriasRepository
-      .getAll()
+    categoriasRepository.getAll()
       .then((categoriasFromServer) => {
         setCategorias(categoriasFromServer);
       }); // está sem validação...

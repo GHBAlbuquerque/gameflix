@@ -14,10 +14,6 @@ function CadastroCategoria() {
     titulo: '',
     descricao: '',
     cor: '#000000',
-    // link_extra: {
-    //   text: '',
-    //   url: '',
-    // },
   };
 
   const { values, handleChange, clearForm } = useForm(valoresIniciais);
@@ -35,12 +31,17 @@ function CadastroCategoria() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    setCategorias([
-      ...categorias, // pegamos o que ja tinhamos
-      values,
-    ]);
-    clearForm();
-    history.push('/');
+
+    categoriasRepository.createCategoria({
+      titulo: values.titulo,
+      descricao: values.descricao,
+      cor: values.cor,
+    })
+      .then(() => {
+        console.log(categorias);
+        clearForm();
+        history.push('/');
+      });
   }
 
   return (

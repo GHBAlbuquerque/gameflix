@@ -35,22 +35,22 @@ Here are the technologies used in this project.
 ## How to use
  
 ### 1-) Go to https://gameflix-ten.vercel.app and watch our hero video!
-![HomeScreen](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_HomeBanner.png)
+![HomeBanner](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_HomeBanner.png)
 
 ### 2-) Scroll down to see more game categories: RPG, Action, Adventure... You can also create a new Category or add new Videos to existing ones.
-![TaskLists](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_videocarousels.png)
+![HomeCarousel](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_videocarousels.png)
 
 ### 3-) Create a new Category and customize it with the color you want by clicking on "Nova Categoria".
-![NewTaskList](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_categoryreg.png)
+![NewCategory](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_categoryreg.png)
 
 ### 4-) Add any video you want to your categories by clicking on "Novo Vídeo".
-![ViewTaskList](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_videoreg.png)
+![ViewVideo](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_videoreg.png)
 
 ### 5-) Scroll down to see your new category added to the Home Page.
-![NewTask](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_newcategoryvideo.png)
+![SeeCategory](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_newcategoryvideo.png)
 
 ### 6-) Enjoy our mobile version!
-![NewTask](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_HomeMobile.png)
+![MobileVer](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_HomeMobile.png)
 
  
 ## Features

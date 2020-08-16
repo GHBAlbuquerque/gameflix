@@ -50,7 +50,7 @@ Here are the technologies used in this project.
 ![NewTask](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_newcategoryvideo.png)
 
 ### 6-) Enjoy our mobile version!
-![NewTask](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_HomeMobile.png){:height="50%" width="50%"}
+![NewTask](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_HomeMobile.png)
 
  
 ## Features

@@ -3,6 +3,8 @@
 ## Gameflix
 
 Gameflix app, inspired by Netflix. Done during React Learning Camp by Alura.
+Want to see a playthrough of your favorite game? Gameflix app reunites and categorizes your favorite Let's Play videos by game category: RPG, Action, Adventure, Survival Horror and much more. You can even create your own category and add as many videos as you wish.
+Find new and fun playthroughs by your favorite youtubers and add more as you explore. Everything on an easy-to-use and customizable application.
  
  
 ## Technology 
@@ -10,11 +12,15 @@ Gameflix app, inspired by Netflix. Done during React Learning Camp by Alura.
 Here are the technologies used in this project.
  
 * React
+* Styled Components
  
  
 ## Services Used
  
 * Github
+* Vercel
+* Heroku
+* React Slick
  
  
 ## Getting started
@@ -28,28 +34,31 @@ Here are the technologies used in this project.
  
 ## How to use
  
-### 1-) Go to http://localhost:3000 and click 'Ir para Listas de Atividades!'
-![HomeScreen]()
+### 1-) Go to https://gameflix-ten.vercel.app and watch our hero video!
+![HomeScreen](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_HomeBanner.png)
 
-### 2-) Click 'Nova Lista' to create a new TaskList
-![TaskLists]()
+### 2-) Scroll down to see more game categories: RPG, Action, Adventure... You can also create a new Category or add new Videos to existing ones.
+![TaskLists](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_videocarousels.png)
 
-### 3-) Create a new TaskList by typing any name you want
-![NewTaskList]()
+### 3-) Create a new Category and customize it with the color you want by clicking on "Nova Categoria".
+![NewTaskList](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_categoryreg.png)
 
-### 4-) Click on your TaskList name to view tasks associated to it. To create a new Task, simply click on 'Nova Tarefa'.
-![ViewTaskList]()
+### 4-) Add any video you want to your categories by clicking on "Novo Vídeo".
+![ViewTaskList](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_videoreg.png)
 
-### 5-) Create a new Task by typing any name you want
-![NewTask]()
+### 5-) Scroll down to see your new category added to the Home Page.
+![NewTask](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_newcategoryvideo.png)
 
-### 6-) Delete tasks by clicking on 'Remover' or mark them as 'done' by using the checkbox.
-![NewTask]()
+### 6-) Enjoy our mobile version!
+![NewTask](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/sc_HomeMobile.png)
 
  
 ## Features
  
-  - 
+  - Young and fun interface;
+  - Responsive Design;
+  - Create your own Categories and organize your videos with them;
+  - Add new videos to new and existing Categories.
  
  
 ## Links

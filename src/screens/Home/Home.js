@@ -8,14 +8,13 @@ import categoriasRepository from '../../repositories/categorias';
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
 
-  useEffect(() => {
-    categoriasRepository.getAllWithVideos() // estou dando return de uma promise
-      .then((categoriasVideos) => {
-        setDadosIniciais(categoriasVideos);
-      })
-      .catch((err) => {
-        document.write(err.message);
-      });
+  useEffect(async () => {
+    try {
+      const categoriasVideos = await categoriasRepository.getAllWithVideos();
+      setDadosIniciais(categoriasVideos);
+    } catch (err) {
+      document.write(err.message);
+    }
   }, []);
 
   return (

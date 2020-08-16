@@ -44,12 +44,6 @@
         "text": "5 Reasons Why The Sims is the Greatest Video Game of All Time",
         "url": "https://metro.co.uk/2018/02/09/5-reasons-why-the-sims-is-the-greatest-video-game-of-all-time-7296620/"
       }
-    },
-    {
-      "titulo": "Categoria Teste",
-      "descricao": "aaaaa",
-      "cor": "#000000",
-      "id": 6
     }
   ],
   "videos": [
@@ -63,30 +57,30 @@
     {
       "id": 2,
       "categoriaId": 1,
-      "titulo": "FINAL FANTASY VII Remake - O Início de Gameplay, em Português PT-BR | FF7 no PS4 Pro",
-      "url": "https://www.youtube.com/watch?v=Cpgh0p14DLI",
+      "titulo": "Let's Play Chrono Trigger Part 1 - Good morning, Crono!",
+      "url": "https://www.youtube.com/watch?v=CTuJI4efINs&t=1110s",
       "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
     },
     {
       "id": 3,
       "categoriaId": 1,
-      "titulo": "FINAL FANTASY VII Remake - O Início de Gameplay, em Português PT-BR | FF7 no PS4 Pro",
-      "url": "https://www.youtube.com/watch?v=Cpgh0p14DLI",
-      "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+      "titulo": "【 Persona 5 】 Anime RPG Live Stream - Part 1",
+      "url": "https://www.youtube.com/watch?v=6fp2kI0IBXc&list=PLhn2BMescPmOTKB7VtQC88WQzMjkAh8P5",
+      "videoDescription": "Persona 5 (Japanese: ペルソナ5 Hepburn: Perusona Faibu) is a role-playing video game developed by Atlus."
     },
     {
       "id": 4,
       "categoriaId": 1,
-      "titulo": "FINAL FANTASY VII Remake - O Início de Gameplay, em Português PT-BR | FF7 no PS4 Pro",
-      "url": "https://www.youtube.com/watch?v=Cpgh0p14DLI",
-      "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+      "titulo": "Let's Play Final Fantasy VI! (Blind Playthrough) Part 1",
+      "url": "https://www.youtube.com/watch?v=W1jS1_7DkDQ",
+      "videoDescription": "Welcome to my new Let's Play Final Fantasy series! This time we're taking on an all time classic in Final Fantasy VI!"
     },
     {
       "id": 5,
       "categoriaId": 1,
-      "titulo": "FINAL FANTASY VII Remake - O Início de Gameplay, em Português PT-BR | FF7 no PS4 Pro",
-      "url": "https://www.youtube.com/watch?v=Cpgh0p14DLI",
-      "videoDescription": "Vídeo gameplay do jogo Final Fantasy VII Remake, game disponível para PlayStation 4 e que gravei no PS4."
+      "titulo": "THE WITCHER 3: Wild Hunt - O Início de Gameplay, Dublado e Legendado em Português PT-BR",
+      "url": "https://www.youtube.com/watch?v=TwIB-OdXMCY",
+      "videoDescription": "Vídeo gameplay do jogo The Witcher 3 Wild Hunt em 1080p 60fps. Game rodando no PC, dublado e legendado em Português PT-BR."
     },
     {
       "id": 6,
@@ -98,30 +92,30 @@
     {
       "id": 7,
       "categoriaId": 2,
-      "titulo": "Uncharted Drake's Fortune - Parte 1: El Dorado!!!",
-      "url": "https://www.youtube.com/watch?v=8ac_3007O24",
-      "videoDescription": "Drake's Fortune na versão Collection do Playstation 4, com gráficos renovados, em 1080p60fps e totalmente dublado em Português do Brasil."
+      "titulo": "Red Dead Redemption - Parte 1: John Marston! [ Xbox One - Playthrough ]",
+      "url": "https://www.youtube.com/watch?v=0pZX9Jtt70U&t=569s",
+      "videoDescription": "Primeiro Episódio do Clássico ÉPICO Red Dead Redemption, agora disponível no Xbox One"
     },
     {
       "id": 8,
       "categoriaId": 2,
-      "titulo": "Uncharted Drake's Fortune - Parte 1: El Dorado!!!",
-      "url": "https://www.youtube.com/watch?v=8ac_3007O24",
-      "videoDescription": "Drake's Fortune na versão Collection do Playstation 4, com gráficos renovados, em 1080p60fps e totalmente dublado em Português do Brasil."
+      "titulo": "Halo 4 Gameplay Walkthrough Part 1 - Campaign Mission 1 - Dawn (H4)",
+      "url": "https://www.youtube.com/watch?v=iTR1VJoJZVQ",
+      "videoDescription": "NEW Halo 4 Gameplay Walkthrough Part 1 includes the Prologue and Mission 1: Dawn of the Halo 4 Campaign for Xbox 360."
     },
     {
       "id": 9,
       "categoriaId": 2,
-      "titulo": "Uncharted Drake's Fortune - Parte 1: El Dorado!!!",
-      "url": "https://www.youtube.com/watch?v=8ac_3007O24",
-      "videoDescription": "Drake's Fortune na versão Collection do Playstation 4, com gráficos renovados, em 1080p60fps e totalmente dublado em Português do Brasil."
+      "titulo": "GHOST OF TSUSHIMA Walkthrough Gameplay Part 1 - INTRO (PS4 PRO)",
+      "url": "https://www.youtube.com/watch?v=FWPielprQ2k&list=PLs1-UdHIwbo5fR4J12PDlJf6lyXU2oMYC",
+      "videoDescription": "Ghost of Tsushima Walkthrough Gameplay Part 1"
     },
     {
       "id": 10,
       "categoriaId": 2,
-      "titulo": "Uncharted Drake's Fortune - Parte 1: El Dorado!!!",
-      "url": "https://www.youtube.com/watch?v=8ac_3007O24",
-      "videoDescription": "Drake's Fortune na versão Collection do Playstation 4, com gráficos renovados, em 1080p60fps e totalmente dublado em Português do Brasil."
+      "titulo": "Fallout 4 Walkthrough Gameplay Part 1 - The Apocalypse (PS4)",
+      "url": "https://www.youtube.com/watch?v=r9WsqRhbdF4",
+      "videoDescription": "NEW Fallout 4 Walkthrough Gameplay Part 1 includes a Review, Character Creation and Mission 1 of Main Story for PS4, Xbox One and PC."
     },
     {
       "id": 11,
@@ -133,30 +127,30 @@
     {
       "id": 12,
       "categoriaId": 3,
-      "titulo": "HORIZON ZERO DAWN - O Início de Gameplay, em Português! (PS4 Pro)",
-      "url": "https://www.youtube.com/watch?v=Uv6OvwqEPGM",
-      "videoDescription": "Vídeo gameplay do jogo Horizon Zero Dawn, em Português PT-BR no PS4 Pro. Game exclusivo de PS4."
+      "titulo": "Life Is Strange™ Episode 1: Chrysalis | Full Walkthrough",
+      "url": "https://www.youtube.com/watch?v=0pZX9Jtt70U&t=569s",
+      "videoDescription": "Life Is Strange™ Episode 1: Chrysalis | Full Walkthrough"
     },
     {
       "id": 13,
       "categoriaId": 3,
-      "titulo": "HORIZON ZERO DAWN - O Início de Gameplay, em Português! (PS4 Pro)",
-      "url": "https://www.youtube.com/watch?v=Uv6OvwqEPGM",
-      "videoDescription": "Vídeo gameplay do jogo Horizon Zero Dawn, em Português PT-BR no PS4 Pro. Game exclusivo de PS4."
+      "titulo": "Mass Effect Andromeda - Parte 1: Um Novo Começo!!!",
+      "url": "https://www.youtube.com/watch?v=Dsk9-SbsLA0",
+      "videoDescription": "Começando Mass Effect Andromeda, novo game da franquia que se passa a mais de 600 anos após os acontecimentos do ME3"
     },
     {
       "id": 14,
       "categoriaId": 3,
-      "titulo": "HORIZON ZERO DAWN - O Início de Gameplay, em Português! (PS4 Pro)",
-      "url": "https://www.youtube.com/watch?v=Uv6OvwqEPGM",
-      "videoDescription": "Vídeo gameplay do jogo Horizon Zero Dawn, em Português PT-BR no PS4 Pro. Game exclusivo de PS4."
+      "titulo": "DRAGON AGE INQUISITION - Gameplay do Início, em Português!",
+      "url": "https://www.youtube.com/watch?v=pZ8MV-SI-DY",
+      "videoDescription": "Vídeo gameplay de Dragon Age Inquisition, jogo legendado em Português PT-BR."
     },
     {
       "id": 15,
       "categoriaId": 3,
-      "titulo": "HORIZON ZERO DAWN - O Início de Gameplay, em Português! (PS4 Pro)",
-      "url": "https://www.youtube.com/watch?v=Uv6OvwqEPGM",
-      "videoDescription": "Vídeo gameplay do jogo Horizon Zero Dawn, em Português PT-BR no PS4 Pro. Game exclusivo de PS4."
+      "titulo": "DETROIT BECOME HUMAN Walkthrough Gameplay Part 1 - INTRO (PS4 Pro)",
+      "url": "https://www.youtube.com/watch?v=t3cLDDwLeJA",
+      "videoDescription": "PS4 Detroit Become Human Gameplay Walkthrough Part 1 of the Detroit Become Human Story Campaign including a Review, Intro and Chapter 1"
     },
     {
       "id": 16,
@@ -175,23 +169,23 @@
     {
       "id": 18,
       "categoriaId": 4,
-      "titulo": "RESIDENT EVIL 2 REMAKE : LEON A #1 - O INÍCIO DE GAMEPLAY",
-      "url": "https://www.youtube.com/watch?v=YRpk5MPPl-U",
-      "videoDescription": "Vídeo com o início de gameplay de Resident Evil 2 Remake legendado em Português."
+      "titulo": "Let's Watch - PT",
+      "url": "https://www.youtube.com/watch?v=fF6IVUum7wI",
+      "videoDescription": "Geoff, Jack, and Lindsay brave the horrors of PT while the rest of AH watches in delight."
     },
     {
       "id": 19,
       "categoriaId": 4,
-      "titulo": "RESIDENT EVIL 2 REMAKE : LEON A #1 - O INÍCIO DE GAMEPLAY",
-      "url": "https://www.youtube.com/watch?v=YRpk5MPPl-U",
-      "videoDescription": "Vídeo com o início de gameplay de Resident Evil 2 Remake legendado em Português."
+      "titulo": "RESIDENT EVIL 3 REMAKE - O INÍCIO DE GAMEPLAY em Português",
+      "url": "https://www.youtube.com/watch?v=4JRHKN02Ttk",
+      "videoDescription": "Vídeo com a nossa tão esperada Gameplay do Início de Resident Evil 3 Remake Legendado em Português."
     },
     {
       "id": 20,
       "categoriaId": 4,
-      "titulo": "RESIDENT EVIL 2 REMAKE : LEON A #1 - O INÍCIO DE GAMEPLAY",
-      "url": "https://www.youtube.com/watch?v=YRpk5MPPl-U",
-      "videoDescription": "Vídeo com o início de gameplay de Resident Evil 2 Remake legendado em Português."
+      "titulo": "LET YOUR STORY BEGIN | Until Dawn - Part 1",
+      "url": "https://www.youtube.com/watch?v=aHmW4VBoSis",
+      "videoDescription": "Until Dawn breaks open a branching horror story. Don't be fooled by the campy (and slightly cliche) setting."
     },
     {
       "id": 21,
@@ -203,42 +197,30 @@
     {
       "id": 22,
       "categoriaId": 5,
-      "titulo": "Stardew Valley #01 'Cansei da vida moderna' - Gameplay Fazenda estilo Harvest Moon ",
-      "url": "https://www.youtube.com/watch?v=ALZg5XeOENQ",
-      "videoDescription": "Acompanhe a gameplay traduzida e narrada em ptbr de Stardew Valley."
+      "titulo": "Single Girl Tries The 100 Baby Challenge Season 1 Marathon | Sims 4",
+      "url": "https://www.youtube.com/watch?v=3KFNMMeu9Ug",
+      "videoDescription": "Single Girl Tries The 100 Baby Challenge Season 1 Marathon | Sims 4"
     },
     {
       "id": 23,
       "categoriaId": 5,
-      "titulo": "Stardew Valley #01 'Cansei da vida moderna' - Gameplay Fazenda estilo Harvest Moon ",
-      "url": "https://www.youtube.com/watch?v=ALZg5XeOENQ",
-      "videoDescription": "Acompanhe a gameplay traduzida e narrada em ptbr de Stardew Valley."
+      "titulo": "Joguei THE SIMS 2 Depois de 10 Anos",
+      "url": "https://www.youtube.com/watch?v=kk9tE4qTjWc",
+      "videoDescription": "A última vez que joguei o The Sims 2 foi em 2009, então aproveitei o tédio da quarentena para jogar um dos meus jogos favoritos que eu nem lembrava como era."
     },
     {
       "id": 24,
       "categoriaId": 5,
-      "titulo": "Stardew Valley #01 'Cansei da vida moderna' - Gameplay Fazenda estilo Harvest Moon ",
-      "url": "https://www.youtube.com/watch?v=ALZg5XeOENQ",
-      "videoDescription": "Acompanhe a gameplay traduzida e narrada em ptbr de Stardew Valley."
+      "titulo": "AMOR DOCE EM 2020",
+      "url": "https://www.youtube.com/watch?v=PFCSNEfk0L4",
+      "videoDescription": "AMOR DOCE EM 2020"
     },
     {
       "id": 25,
       "categoriaId": 5,
-      "titulo": "Stardew Valley #01 'Cansei da vida moderna' - Gameplay Fazenda estilo Harvest Moon ",
-      "url": "https://www.youtube.com/watch?v=ALZg5XeOENQ",
-      "videoDescription": "Acompanhe a gameplay traduzida e narrada em ptbr de Stardew Valley."
-    },
-    {
-      "titulo": "Video Teste",
-      "url": "https://www.youtube.com/watch?v=J9N9LXT2syM",
-      "categoriaId": 3,
-      "id": 26
-    },
-    {
-      "titulo": "",
-      "url": "https://www.youtube.com/watch?v=8LdRQQcBqVU",
-      "categoriaId": 6,
-      "id": 27
+      "titulo": "HOW TO BE DADDY | Dream Daddy - Part 1",
+      "url": "https://www.youtube.com/watch?v=9EcO-nOu8QE",
+      "videoDescription": "Welcome to Dream Daddy! This amazing game from amazing people is all about dating some amazing dads!"
     }
   ]
 }

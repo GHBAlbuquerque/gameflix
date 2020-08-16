@@ -39,7 +39,7 @@ export const SliderItem = styled.li`
     &:hover,
     &:focus {
         opacity: .5;
-        transform: scale(1.1);
+        /* transform: scale(1.1); */
     }
 `;
 

@@ -1,4 +1,4 @@
-![Logo of the project]()
+![Logo of the project](https://github.com/GHBAlbuquerque/gameflix/blob/master/public/readme_images/logo.png)
  
 ## Gameflix
 
@@ -30,7 +30,7 @@ Here are the technologies used in this project.
 * To run the project:
 >    $ npm run dev
 * Open in browser:
->    go to http://localhost:3000
+>    https://gameflix-ten.vercel.app/
  
 ## How to use
  

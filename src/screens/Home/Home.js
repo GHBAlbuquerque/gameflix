@@ -8,13 +8,14 @@ import categoriasRepository from '../../repositories/categorias';
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
 
-  useEffect(async () => {
-    try {
-      const categoriasVideos = await categoriasRepository.getAllWithVideos();
-      setDadosIniciais(categoriasVideos);
-    } catch (err) {
-      document.write(err.message);
-    }
+  useEffect(() => {
+    categoriasRepository.getAllWithVideos()
+      .then((categoriasVideos) => {
+        setDadosIniciais(categoriasVideos);
+      })
+      .catch((err) => {
+        document.write(err.message);
+      });
   }, []);
 
   return (
